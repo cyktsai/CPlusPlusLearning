@@ -15,7 +15,12 @@ int main(int argc, char * argv[])
 		char *content = new char;
 		
 		ffile.seekg(0, ios::beg);
-		ffile.read(content, size);
+		while (!ffile.eof())
+		{
+			ffile.get(*content);
+			cout << *content;
+		}
+/*		ffile.read(content, size);
 		int pos = 0;		
 		while (!ffile.eof())
 		{
@@ -27,11 +32,7 @@ int main(int argc, char * argv[])
 			ffile.seekg(pos, ios::beg);
 			
 		}
-//		cout<< *content <<endl;
-//		*content++;
-//		cout<< *content <<endl;
-
-
+*/
 		ffile.close();
 		ffile.clear();
 	}
