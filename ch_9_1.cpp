@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	//vector<string> svec;
+	vector<string> svec;
 	// list<int> ilist;
 	deque<Sales_item> items;
 
@@ -17,8 +17,8 @@ int main()
 	vector<int> ivec2(ivec);
 
 //	list<string> slist(svec.begin(), svec.end());
-	extern unsigned get_word_count(const string &file_name);
-	vector<string> svec(get_word_count("Tmp.txt"));
+	//extern unsigned get_word_count(const string &file_name);
+	//vector<string> svec(get_word_count("Tmp.txt"));
 	vector<string>::iterator mid = svec.begin() + svec.size()/2;
 
 	deque<string> front(svec.begin(), mid);
@@ -33,6 +33,12 @@ int main()
 
 	list<int> ilist(list_size);
 
-	
+	int ia[7] = {0,1,1,2,3,5,8};
+	string sa[6] = {"Fort Sumter","Manassas","Perryville","Vicksburg","Meridian","Chancellorsville",};
+	vector<string> svec1(sa, sa+6);
+	list<int> ilist1(ia+4, ia+6);
+	vector<int> ivec1(ia, ia+8);
+ 	
+ 	list< deque<int> > lideques(10);
 	return 0;
 }
