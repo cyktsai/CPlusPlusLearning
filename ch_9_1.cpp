@@ -40,5 +40,13 @@ int main()
 	vector<int> ivec1(ia, ia+8);
  	
  	list< deque<int> > lideques(10);
+
+ 	list<int> lst1;
+ 	list<int>::iterator iter1 = lst1.begin(), iter2 = lst1.end();
+ 	while (iter1 != iter2)
+ 	{
+ 		iter1++;
+
+ 	}
 	return 0;
 }
