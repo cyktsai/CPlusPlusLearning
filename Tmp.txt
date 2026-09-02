@@ -1,2 +1,3 @@
 Executive Summary
 If you are wondering whether development operations (DevOps) is merely a fad, youre already falling behind. Faster and more nimble competitors are already able to quickly respond to shifting customer demands to deliver better customer experiences and better business results. DevOps provides a proven set of practices that enable organizations to deliver applications more quickly to better connect with customers while simultaneously reducing both cost and risk. The results are profound, but achieving them requires focus and willingness to leave behind old ways of working and organizing.
+test
